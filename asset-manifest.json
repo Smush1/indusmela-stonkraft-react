@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/indusmela-stonkraft-react/static/css/main.e6c13ad2.css",
-    "main.js": "/indusmela-stonkraft-react/static/js/main.417d9e71.js",
+    "main.css": "/indusmela-stonkraft-react/static/css/main.becb0ea8.css",
+    "main.js": "/indusmela-stonkraft-react/static/js/main.d14b24d9.js",
     "static/js/453.a7a2e321.chunk.js": "/indusmela-stonkraft-react/static/js/453.a7a2e321.chunk.js",
+    "static/media/foldable-chess-table.png": "/indusmela-stonkraft-react/static/media/foldable-chess-table.9f7f0b3c5c34c590b5e1.png",
+    "static/media/DIY-square-key-chains.png": "/indusmela-stonkraft-react/static/media/DIY-square-key-chains.f36b26f2dd0c04961c65.png",
+    "static/media/wooden-comb.png": "/indusmela-stonkraft-react/static/media/wooden-comb.cfa84e3e2a69dd1de7d5.png",
+    "static/media/coffee-table.png": "/indusmela-stonkraft-react/static/media/coffee-table.aafe496b31f806cea280.png",
     "index.html": "/indusmela-stonkraft-react/index.html",
-    "main.e6c13ad2.css.map": "/indusmela-stonkraft-react/static/css/main.e6c13ad2.css.map",
-    "main.417d9e71.js.map": "/indusmela-stonkraft-react/static/js/main.417d9e71.js.map",
+    "main.becb0ea8.css.map": "/indusmela-stonkraft-react/static/css/main.becb0ea8.css.map",
+    "main.d14b24d9.js.map": "/indusmela-stonkraft-react/static/js/main.d14b24d9.js.map",
     "453.a7a2e321.chunk.js.map": "/indusmela-stonkraft-react/static/js/453.a7a2e321.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.417d9e71.js"
+    "static/css/main.becb0ea8.css",
+    "static/js/main.d14b24d9.js"
   ]
 }
