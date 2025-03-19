@@ -61,10 +61,30 @@ code {
 }
 
 
+.fi-toggle-section{
+  display: none;
+}
+
+.fi-toggle-section-styling{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  
+}
+
+
+
 .view-all-btn{
   background-color: #EC542A!important;
   border: none;
   text-transform: uppercase;
+}
+
+
+/* Small  */
+@media screen and (max-width:576px){
+  .view-all-btn{
+    width: 80%!important; 
+  }
 }
 
 .view-all-btn:hover{

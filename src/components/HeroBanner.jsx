@@ -1,5 +1,3 @@
-
-
 function HeroBanner() {
   return (
     <>
