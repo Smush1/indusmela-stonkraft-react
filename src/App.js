@@ -3,6 +3,7 @@ import ContactBulkForm from "./components/ContactBulkForm";
 import FeaturedItems from "./components/FeaturedItems";
 import Header from "./components/Header";
 import HeroBanner from "./components/HeroBanner";
+import Testimonial from "./components/Testimonial";
 function App() {
 
 
@@ -12,6 +13,7 @@ function App() {
     <HeroBanner /> 
     <FeaturedItems /> 
     <ContactBulkForm />
+    <Testimonial />
     </>
   );
 }

@@ -32,6 +32,7 @@ function FeaturedItems() {
         }
         else{
             toggleSectionProducts.classList.remove('d-flex');
+            toggleSectionProducts.classList.add('')
             viewTabBtn.textContent = "View More"
         }
     }
@@ -39,7 +40,6 @@ function FeaturedItems() {
   return (
     <>
     <div className='container mb-4'>
-        <section>
         <h2>Featured Products</h2>
         <p >We bring you a thoughtfully curated range of handmade products across diverse categories</p>
             <div className='row fi-grid--container '>
@@ -60,9 +60,6 @@ function FeaturedItems() {
             </div>
 
             {/* Start of rendering 4 featured product items */}
-
-
-        </section>
     </div>
     
 
