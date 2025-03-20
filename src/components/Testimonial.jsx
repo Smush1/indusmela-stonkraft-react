@@ -25,9 +25,9 @@ function Testimonial() {
         {/* Start of Testimonial */}
 
         {
-          Testimonials.map((singleTestimonial)=>(
+          Testimonials.map((singleTestimonial, index)=>(
 
-        <div className='single-testimonial-outer-container d-flex justify-content-center text-center'>
+        <div className='single-testimonial-outer-container d-flex justify-content-center text-center' key={index}>
           <div className="single-testimonial d-flex align-items-center">
             <div className="left-img">
               <img src={singleTestimonial.image} alt="" className='w-100'/>

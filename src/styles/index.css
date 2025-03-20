@@ -70,8 +70,9 @@ code {
 
 .fi-toggle-section{
   display: none;
-  animation: not-visible 2s ease-in-out ;
+  
 }
+
 
 .fi-toggle-section-styling{
   margin-top: 2rem;
@@ -87,18 +88,6 @@ code {
   100%{
     opacity: 1;
   }
-}
-
-@keyframes not-visible {
-
-  0%{
-      opacity: 1;
-  }
-
-  100%{
-      opacity: 0;
-  }
-  
 }
 
 

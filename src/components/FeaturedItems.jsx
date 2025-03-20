@@ -32,7 +32,6 @@ function FeaturedItems() {
         }
         else{
             toggleSectionProducts.classList.remove('d-flex');
-            toggleSectionProducts.classList.add('')
             viewTabBtn.textContent = "View More"
         }
     }
