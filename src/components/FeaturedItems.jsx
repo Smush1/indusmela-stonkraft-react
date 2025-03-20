@@ -39,7 +39,7 @@ function FeaturedItems() {
   return (
     <>
     <div className='container mb-4'>
-        <h2>Featured Products</h2>
+        <h2 className='featured-items-heading'>Featured Products</h2>
         <p >We bring you a thoughtfully curated range of handmade products across diverse categories</p>
             <div className='row fi-grid--container '>
                 {/* Start of rendering 8 featured product items */}
@@ -82,6 +82,10 @@ function FeaturedItems() {
             <div className='view-all-btn-container justify-content-center d-flex'>
                <button type="button" onClick={toggleViewTab} className="btn btn-primary w-25 view-all-btn py-3">View More</button>
              </div>
+        </div>
+
+        <div className='w-50'>
+
         </div>
     </>
   )

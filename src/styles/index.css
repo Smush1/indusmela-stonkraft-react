@@ -30,9 +30,14 @@ code {
 
 /*  ||  Featured Items Styling */
 
+.featured-items-heading{
+  color: #0F484C;
+}
+
 .fi-img{
   max-width: 100%;
 }
+
 
 .fi-grid--container{
   row-gap: 2rem;
@@ -61,7 +66,7 @@ code {
   text-transform: uppercase;
 }
 
-.buy-btn:hover{
+.buy-btn:hover, .buy-btn:active{
   background-color: var(--LIGHT-COLOR);
   color: #fff;
   border: none;
@@ -213,4 +218,48 @@ code {
   padding: 6rem;
   margin-inline: 6rem;
   column-gap: 2rem;
+}
+
+/* ||  Contact Us Form */
+
+.contact-us-section{
+  margin-top: 6rem;
+}
+
+.contact-us-main--inner-container{
+  column-gap: 2rem;
+}
+
+
+.add-info-item{
+  gap: 10px;
+}
+
+.left-add-info{
+  border: 1px solid #13606633;
+  border-radius: 40px;
+}
+
+.right-contact-us{
+  background-color: #136066;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.contact-us-field{
+  background-color:#15666D;
+  padding: 10px;
+  border-radius:50px;
+  border: 1px solid transparent;
+}
+
+.contact-us-msg{
+  background-color:#15666D;
+  padding: 10px;
+  border-radius:10px;
+  border: 1px solid transparent;
+}
+
+.right-contact-us label{
+  font-size: 12px;
 }
