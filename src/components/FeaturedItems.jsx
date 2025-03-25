@@ -51,7 +51,7 @@ function FeaturedItems() {
                                 <figcaption>{featureditem.altText}</figcaption>
                                 <p className='price'> <s className='sale-price p-1'>₹{featureditem.salePrice} </s> ₹{ featureditem.price } </p>
                             </figure>
-                            <button href="#" className='btn btn-outline-danger w-100 buy-btn py-3'>Buy Now</button>
+                            <button href="#" className='btn btn-outline-danger w-100 buy-btn py-3'  data-bs-toggle="modal" data-bs-target="#staticBackdrop">Buy Now</button>
                         </div>
                         ))
                     }
@@ -72,11 +72,13 @@ function FeaturedItems() {
                         <figcaption>{featureditem.altText}</figcaption>
                         <p className='price'> <s className='sale-price p-1'>₹{featureditem.salePrice} </s> ₹{ featureditem.price } </p>
                     </figure>
-                    <button href="#" className='btn btn-outline-danger w-100 buy-btn py-3'>Buy Now</button>
+                    <button className='btn btn-outline-danger w-100 buy-btn py-3' data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Buy Now</button>
                 </div>
                         ))
               }
             </div>
+
+
             {/* End of rendering 4 featured product items */}
 
             <div className='view-all-btn-container justify-content-center d-flex'>
@@ -84,9 +86,45 @@ function FeaturedItems() {
              </div>
         </div>
 
-        <div className='w-50'>
+       {/*  <!-- Button trigger modal --> */}
 
+        {/* <!-- Modal --> */}
+        <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div className="modal-dialog modal-dialog-centered">
+            <div className="modal-content">
+            <div className="modal-header">
+                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div className="modal-body">
+                <div className='d-flex align-content-center pop-up-flex-container'>
+                    <img src={FeaturedItemsImage[1].imageLink} className='w-50' alt={FeaturedItemsImage.altText}/>
+                    <div className='pop-up-content'>
+                        <h5>StonKraft Wooden Chess Board Foldable Table + Wood Chess Pieces – Tournament Size 16″ Inches – Brown</h5>
+                        <p className='pop-up-price'>$924</p>
+                        <p className='pop-up-para'> Handcrafted Chess Board made on Stone, Pieces are also made of Brown / Black Stone for premium quality and peace of mind. Chess Set itself is having storage for all of it 32 pawns and is laced with satin feel cloth. Pieces are made of Black and Brown color natural stone.</p>
+                        <button className='btn btn-outline-danger w-100 submit py-3'> Buy Now </button>
+                    <table className=' mt-4'>
+                      <tr>
+                        <td className='w-50'>SKU</td>
+                        <td className='w-50'>SOHAYYE8550</td>
+                      </tr>
+                      <tr>
+                        <td>Type</td>
+                        <td>Kitchen</td>
+                      </tr>
+                      <tr>
+                        <td>Vendor</td>
+                        <td>Stonekraft</td>
+                      </tr>
+                    </table>
+                    </div>
+                </div>
+            </div>
+            </div>
         </div>
+        </div>
+
+                    
     </>
   )
 }

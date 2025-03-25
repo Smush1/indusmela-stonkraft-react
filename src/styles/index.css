@@ -268,10 +268,26 @@ code {
 
 
 
+@media screen and (min-width: 768px){
+  
+  .modal{
+    --bs-modal-width: 700px!important;
+    padding: 4rem;
+  }
+}
 
 
 
+.pop-up-flex-container{
+  gap: 1rem;
 
+}
+
+.pop-up-price{
+  color: #136066;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
 
 
 

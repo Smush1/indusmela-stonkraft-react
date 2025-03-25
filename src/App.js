@@ -8,6 +8,8 @@ import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
 import CoreCategories from "./components/CoreCategories";
 import EcommercePlatform from "./components/EcommercePlatform";
+
+
 function App() {
 
 
