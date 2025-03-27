@@ -2,15 +2,15 @@
 
 function ContactBulkForm() {
   return (
-  <section className="bulk-contact-form--main-container">
-    <div className="bulk-contact-inner-container container-fluid ">
+  <section className="bulk-contact-form--main-container container-fluid ">
+    <div className="bulk-contact-inner-container ">
       <div className="row">
-        <div className="col-5 text-btn-container">
+        <div className="col-lg-5 text-btn-container">
           <h3 className="bulk-left-heading">Corporate Gifting with <span className="bulk-left-custom-heading">StonKraft</span></h3>
           <p className="bulk-left-para">Whether you’re looking to strengthen client relationships, appreciate employees, or celebrate milestones, our curated selection of premium gifts ensures your brand stands out with class and authenticity.</p>
           <a className="btn btn-primary bulk-buy-btn px-4 py-3 mt-2" href="#" role="button">Contact for bulk buying</a>
         </div>
-        <div className="col-5 bulk-contact-form-container m-5">
+        <div className="col-lg-5 bulk-contact-form-container m-5">
           <h4 className="bulk-contact-form-heading">Please share the details and we will be in touch with you</h4>
           <form action="" method="post">
             <label htmlFor="name" className="w-100">Name*</label>

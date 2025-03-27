@@ -7,7 +7,7 @@ function ContactUs() {
     <section className="container contact-us-section mb-5">
         <div className="mx-auto w-75 d-flex">
           <div className='row contact-us-main--inner-container'>
-            <div className="left-add-info d-grid col-4 align-items-center py-5">
+            <div className="left-add-info d-grid col-lg-4 align-items-center py-5 col-sm-12">
                 <div className="add-info-item d-flex">
                     <div className="add-icon-container">
                         <img src={locationSvg} alt="" srcset="" />
@@ -40,7 +40,7 @@ function ContactUs() {
                 </div>
               
             </div>
-            <div className="right-contact-us col-7 py-5 px-3">
+            <div className="right-contact-us col-lg-7 py-5 px-3 col-sm-12">
                 <h3>Get in touch with us!</h3>
                 <p>We’d love to hear from you! Whether you have partnership inquiries or general questions, simply fill out the form below, and our team will get back to you shortly.</p>
 
