@@ -282,6 +282,16 @@ code {
   margin-top: 6rem;
 }
 
+
+@media screen and (max-width: 768px) {
+  .contact-us-section > .mx-auto{
+    width: 85%!important;
+  }
+  .contact-us-section{
+    margin-top: 0;
+  }
+}
+
 .contact-us-main--inner-container{
   gap: 2rem;
 }
