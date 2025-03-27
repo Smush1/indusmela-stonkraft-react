@@ -31,6 +31,7 @@ function Testimonial() {
           <div className="single-testimonial d-flex align-items-center">
             <div className="left-img">
               <img src={singleTestimonial.image} alt="" className='w-100'/>
+              <button className='btn btn-outline-danger w-100 buy-btn py-3 mt-3'> Buy Now </button>
             </div>
             <div className="right-test w-75">
                 <img src={ singleTestimonial.rating } alt="" className='d-block mx-auto mb-3' />
