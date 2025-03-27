@@ -285,7 +285,7 @@ code {
 
 @media screen and (max-width: 768px) {
   .contact-us-section > .mx-auto{
-    width: 95%!important;
+    width: 90%!important;
   }
   .contact-us-section{
     margin-top: 0;
