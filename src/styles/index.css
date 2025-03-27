@@ -165,11 +165,12 @@ code {
   .text-btn-container{
     text-align: center;
     width: inherit!important;
-    margin-bottom: 0!important;
+    margin: 2rem 0 0 0!important;
   }
 
   .bulk-contact-form-container{
     width: inherit!important;
+    padding: 35px 5px!important;
   }
 
 }
@@ -240,6 +241,8 @@ code {
 
 
 /*  ||  TESTIMONIAL SECTION */
+
+
 .testimonial-heading{
   color: var(--DARK-COLOR)
 }
@@ -253,6 +256,10 @@ code {
   /* .slick-prev{
     left: 2px !important;
   }  */
+
+  .testimonial{
+    padding: 0 0;
+  }
 
   .single-testimonial{
     padding: 1.5rem!important;
