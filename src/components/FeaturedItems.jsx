@@ -28,11 +28,13 @@ function FeaturedItems() {
   
         if(viewTab){
             toggleSectionProducts.classList.add('d-flex');
+            toggleSectionProducts.classList.remove('unvisible')
             viewTabBtn.textContent = "Hide"
         }
         else{
             toggleSectionProducts.classList.remove('d-flex');
-            viewTabBtn.textContent = "View More"
+            toggleSectionProducts.classList.add('unvisible')
+            viewTabBtn.textContent = "View More";
         }
     }
 
@@ -89,7 +91,7 @@ function FeaturedItems() {
        {/*  <!-- Button trigger modal --> */}
 
         {/* <!-- Modal --> */}
-        <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div className="modal-dialog modal-dialog-centered">
             <div className="modal-content">
             <div className="modal-header">
@@ -104,18 +106,20 @@ function FeaturedItems() {
                         <p className='pop-up-para'> Handcrafted Chess Board made on Stone, Pieces are also made of Brown / Black Stone for premium quality and peace of mind. Chess Set itself is having storage for all of it 32 pawns and is laced with satin feel cloth. Pieces are made of Black and Brown color natural stone.</p>
                         <button className='btn btn-outline-danger w-100 submit py-3'> Buy Now </button>
                     <table className=' mt-4'>
-                      <tr>
-                        <td className='w-50'>SKU</td>
-                        <td className='w-50'>SOHAYYE8550</td>
-                      </tr>
-                      <tr>
-                        <td>Type</td>
-                        <td>Kitchen</td>
-                      </tr>
-                      <tr>
-                        <td>Vendor</td>
-                        <td>Stonekraft</td>
-                      </tr>
+                      <tbody>
+                        <tr>
+                            <td className='w-50'>SKU</td>
+                            <td className='w-50'>SOHAYYE8550</td>
+                        </tr>
+                        <tr>
+                            <td>Type</td>
+                            <td>Kitchen</td>
+                        </tr>
+                        <tr>
+                            <td>Vendor</td>
+                            <td>Stonekraft</td>
+                        </tr>
+                      </tbody>
                     </table>
                     </div>
                 </div>

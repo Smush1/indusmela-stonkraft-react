@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -5,6 +6,27 @@ import Testimonials from '../data/testimonials'
 
 
 function Testimonial() {
+
+// State to track which testimonial's "Read more" is expanded
+const [expanded, setExpanded] = useState({});
+
+const handleTestContent = (index) => {
+  // Toggle the expanded state for the specific testimonial
+  setExpanded((prev) => ({
+    ...prev,
+
+    [index]: !prev[index], // Toggle true/false for this index
+
+    
+  })
+);
+
+  
+};
+
+
+
+
 
     const settings = {
         dots: false,
@@ -35,7 +57,7 @@ function Testimonial() {
             </div>
             <div className="right-test w-75">
                 <img src={ singleTestimonial.rating } alt="" className='d-block mx-auto mb-3' />
-                <p className='test-para'>{singleTestimonial.testimonial}</p>
+                <p className='test-para'>{singleTestimonial.testimonial}<span className={`test-more ${expanded[index] ? 'visible' : ''}`}>{singleTestimonial.testimonialMore}</span><span className='test-dots' onClick={() => handleTestContent(index)}>{expanded[index] ? 'Read less' : 'Read more'}</span></p>
             </div>
 
           </div> 

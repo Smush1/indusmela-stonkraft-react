@@ -4,13 +4,13 @@ import emailSvg from '../images/email.svg'
 
 function ContactUs() {
   return (
-    <section className="container contact-us-section mb-5">
+    <section className="container contact-us-section">
         <div className="mx-auto w-100 d-flex ">
           <div className='row contact-us-main--inner-container justify-content-center'>
             <div className="left-add-info d-grid col-lg-4 align-items-center py-5 col-sm-12">
                 <div className="add-info-item d-flex">
                     <div className="add-icon-container">
-                        <img src={locationSvg} alt="" srcset="" />
+                        <img src={locationSvg} alt="" />
                     </div>
                     <div className="add-icon-info">
                         <h4 class> Write to Us</h4>
@@ -20,7 +20,7 @@ function ContactUs() {
                 </div>
                 <div className="add-info-item d-flex">
                     <div className="add-icon-container">
-                    <img src={phoneSvg} alt="" srcset="" />                   
+                    <img src={phoneSvg} alt=""  />                   
                     </div>
                     <div className="add-icon-info">
                         <h4>Call Us</h4>
@@ -30,7 +30,7 @@ function ContactUs() {
                 </div>
                 <div className="add-info-item d-flex">
                     <div className="add-icon-container">
-                    <img src={emailSvg} alt="" srcset="" />
+                    <img src={emailSvg} alt="" />
                     </div>
                     <div className="add-icon-info">
                         <h4>Visit Us</h4>

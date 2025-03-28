@@ -17,7 +17,7 @@ function App() {
     <>
     <Header />
     <HeroBanner />
-    < CoreCategories /> 
+    <CoreCategories /> 
     <EcommercePlatform/>
     <FeaturedItems /> 
     <ContactBulkForm />
