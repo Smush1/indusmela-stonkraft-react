@@ -1,10 +1,22 @@
 {
   "files": {
-    "main.css": "/indusmela-stonkraft-react/static/css/main.bea7efef.css",
-    "main.js": "/indusmela-stonkraft-react/static/js/main.3d27d237.js",
+    "main.css": "/indusmela-stonkraft-react/static/css/main.2662a02f.css",
+    "main.js": "/indusmela-stonkraft-react/static/js/main.5adc981a.js",
     "static/js/453.39a39057.chunk.js": "/indusmela-stonkraft-react/static/js/453.39a39057.chunk.js",
+    "static/media/show-piece.png": "/indusmela-stonkraft-react/static/media/show-piece.c79add7eaaf5ad24d09e.png",
     "static/media/bulk-contact-form-bg.png": "/indusmela-stonkraft-react/static/media/bulk-contact-form-bg.de8bc59cd3411db553f0.png",
+    "static/media/hinduidols.png": "/indusmela-stonkraft-react/static/media/hinduidols.4b3632041b070bb37aef.png",
+    "static/media/idols.png": "/indusmela-stonkraft-react/static/media/idols.4b3632041b070bb37aef.png",
+    "static/media/statues.png": "/indusmela-stonkraft-react/static/media/statues.c945cdf57c481ca72d93.png",
+    "static/media/sportsequip1.png": "/indusmela-stonkraft-react/static/media/sportsequip1.d55146f47af4c32637e3.png",
+    "static/media/home-organiser2.png": "/indusmela-stonkraft-react/static/media/home-organiser2.0dd48205e41a7e71e82e.png",
+    "static/media/sportsequip2.png": "/indusmela-stonkraft-react/static/media/sportsequip2.10925081ff1b87128dc5.png",
+    "static/media/art-craft1.png": "/indusmela-stonkraft-react/static/media/art-craft1.27f435f42e70e6891fe7.png",
     "static/media/banner.png": "/indusmela-stonkraft-react/static/media/banner.6d524dfe2739bbc1fa06.png",
+    "static/media/kitchenbathroom2.png": "/indusmela-stonkraft-react/static/media/kitchenbathroom2.30cfeea3102c5988c0f8.png",
+    "static/media/kitchenbathroom1.png": "/indusmela-stonkraft-react/static/media/kitchenbathroom1.85cd9915fcd57a58e487.png",
+    "static/media/home-organiser1.png": "/indusmela-stonkraft-react/static/media/home-organiser1.e4da040137bb5f2190a6.png",
+    "static/media/art-craft2.png": "/indusmela-stonkraft-react/static/media/art-craft2.dce51188b7b25a41405d.png",
     "static/media/testimonial-chess.png": "/indusmela-stonkraft-react/static/media/testimonial-chess.f4b456348bac792c2858.png",
     "static/media/foldable-chess-table.png": "/indusmela-stonkraft-react/static/media/foldable-chess-table.9f7f0b3c5c34c590b5e1.png",
     "static/media/DIY-square-key-chains.png": "/indusmela-stonkraft-react/static/media/DIY-square-key-chains.f36b26f2dd0c04961c65.png",
@@ -34,12 +46,12 @@
     "static/media/slick.woff": "/indusmela-stonkraft-react/static/media/slick.295183786cd8a1389865.woff",
     "static/media/phone.svg": "/indusmela-stonkraft-react/static/media/phone.95276cf8d5fc640963a394b1b3018781.svg",
     "static/media/email.svg": "/indusmela-stonkraft-react/static/media/email.f8102bf773ad36d9c063bda73287fb08.svg",
-    "main.bea7efef.css.map": "/indusmela-stonkraft-react/static/css/main.bea7efef.css.map",
-    "main.3d27d237.js.map": "/indusmela-stonkraft-react/static/js/main.3d27d237.js.map",
+    "main.2662a02f.css.map": "/indusmela-stonkraft-react/static/css/main.2662a02f.css.map",
+    "main.5adc981a.js.map": "/indusmela-stonkraft-react/static/js/main.5adc981a.js.map",
     "453.39a39057.chunk.js.map": "/indusmela-stonkraft-react/static/js/453.39a39057.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bea7efef.css",
-    "static/js/main.3d27d237.js"
+    "static/css/main.2662a02f.css",
+    "static/js/main.5adc981a.js"
   ]
 }
