@@ -24,7 +24,7 @@ function Footer() {
                                 <li><a href="#">Sell Global</a></li>
                                 <li><a href="#">Contact Us</a></li>
                                 <li><a href="#">FAQs</a></li>
-                                <li><a href="#">Blogs</a></li>
+                            {/*     <li><a href="#">Blogs</a></li> */}
                             </ul>
                         </div>
                     </div>{/* <!-- widget end --> */}
