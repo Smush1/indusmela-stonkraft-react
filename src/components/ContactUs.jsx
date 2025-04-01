@@ -4,7 +4,7 @@ import emailSvg from '../images/email.svg'
 
 function ContactUs() {
   return (
-    <section className="container contact-us-section">
+    <div className="container contact-us-section">
         <div className="mx-auto w-100 d-flex ">
           <div className='row contact-us-main--inner-container justify-content-center'>
             <div className="left-add-info d-grid col-lg-4 align-items-center py-5 col-sm-12">
@@ -72,7 +72,7 @@ function ContactUs() {
             </div>
             </div>
         </div>
-    </section>
+    </div>
   )
 }
 

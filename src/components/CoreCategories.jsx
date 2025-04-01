@@ -158,10 +158,10 @@ function CoreCategories() {
                                         <img src={popupChess} alt="Chess Table"/>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src={boardGames} alt="Board Games"/>
+                                        <img src={popupChess} alt="Board Games"/>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src={cardGames} alt="Card Games"/>
+                                        <img src={popupChess} alt="Card Games"/>
                                     </div>
                                 </div>
                             </div>

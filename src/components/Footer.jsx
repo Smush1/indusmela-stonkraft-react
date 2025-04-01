@@ -15,7 +15,7 @@ function Footer() {
                                 dolore magna aliqua. </p>
                         </div>
                     </div>{/* <!-- widget end --> */}
-                    <div className="col-lg-2 col-md-6 col-sm-6">
+                    <div className="col-lg-2 col-md-6 col-sm-6 course-links">
                         <div className="course-links-widget widget">
                             <h5 className="widget-title">Other Links</h5>
                             <ul className="courses-link-list">
@@ -29,7 +29,7 @@ function Footer() {
                         </div>
                     </div>{/* <!-- widget end --> */}
 
-                    <div className="col-lg-2 col-md-6 col-sm-6">
+                    <div className="col-lg-2 col-md-6 col-sm-6 course-links">
                         <div className="course-links-widget widget">
                             <h5 className="widget-title">Main Links</h5>
                             <ul className="courses-link-list">
@@ -40,7 +40,7 @@ function Footer() {
                         </div>
                     </div>{/* <!-- widget end --> */}
 
-                    <div className="col-lg-2 col-md-6 col-sm-6">
+                    <div className="col-lg-2 col-md-6 col-sm-6 course-links">
                         <div className="course-links-widget widget">
                             <h5 className="widget-title">Policies</h5>
                             <ul className="courses-link-list">
@@ -62,9 +62,9 @@ function Footer() {
                                     </ul>
                                 </div>
                             </div>{/* <!-- widget end --> */}
-                            <div className="col-lg-2 col-md-6 col-sm-6">
+                            <div className="col-lg-2 col-md-6 col-sm-6 course-links">
                             <div className="socialLinks">
-                                <h5 className="pb-3 widget-title">Follow Us</h5>
+                                <h5 className=" widget-title">Follow Us</h5>
                                 <ul  className="d-flex company-footer-Follow-us">
                                     <li>
                                         <a href="#">
