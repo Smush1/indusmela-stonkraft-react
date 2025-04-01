@@ -810,6 +810,13 @@ body{
   }
 }
 
+
+
+
+.test-para{
+  font-size: 14px;
+}
+
 .slick-arrow.slick-prev::before{
   content: url('../images/test-left-arrow.png');
 }
@@ -869,6 +876,10 @@ body{
 
 }
 
+
+.rating-img{
+  width: 30%;
+}
 
 .test-dots{
   display: block;
