@@ -52,7 +52,7 @@ const handleTestContent = (index) => {
         <div className='single-testimonial-outer-container d-flex justify-content-center text-center' key={index}>
           <div className="single-testimonial d-flex align-items-center flex-column">
             <div className="left-img">
-              <img src={singleTestimonial.image} alt="" className='w-100'/>
+              <img src={singleTestimonial.image} alt="" className='w-100 review-img'/>
               <button className='btn btn-outline-danger w-100 buy-btn py-1 mt-3'> Buy Now </button>
             </div>
             <div className="right-test w-100 mt-2">

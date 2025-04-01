@@ -876,10 +876,16 @@ body{
 
 }
 
+.review-img{
+  width: 30%;
+}
+
 
 .rating-img{
   width: 30%;
 }
+
+
 
 .test-dots{
   display: block;
