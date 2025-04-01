@@ -32,7 +32,7 @@ const handleTestContent = (index) => {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1
       }
     
@@ -50,12 +50,12 @@ const handleTestContent = (index) => {
           Testimonials.map((singleTestimonial, index)=>(
 
         <div className='single-testimonial-outer-container d-flex justify-content-center text-center' key={index}>
-          <div className="single-testimonial d-flex align-items-center">
+          <div className="single-testimonial d-flex align-items-center flex-column">
             <div className="left-img">
               <img src={singleTestimonial.image} alt="" className='w-100'/>
               <button className='btn btn-outline-danger w-100 buy-btn py-3 mt-3'> Buy Now </button>
             </div>
-            <div className="right-test w-75">
+            <div className="right-test w-100 mt-2">
                 <img src={ singleTestimonial.rating } alt="" className='d-block mx-auto mb-3' />
                 <p className='test-para'>{singleTestimonial.testimonial}<span className={`test-more ${expanded[index] ? 'visible' : ''}`}>{singleTestimonial.testimonialMore}</span><span className='test-dots' onClick={() => handleTestContent(index)}>{expanded[index] ? 'Read less' : 'Read more'}</span></p>
             </div>

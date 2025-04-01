@@ -834,16 +834,12 @@ body{
 }
 
 
-.test-dots{
-  display: none;
-}
-
 
 /* .slick-prev{
     left: -40px !important;
   }  */
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   
 
   .testimonial{
@@ -870,27 +866,29 @@ body{
     width: 100%!important;
   }
 
-  .test-dots{
-    display: block;
-    color: var(--DARK-COLOR);
-    text-decoration: underline;
-  }
 
-  .test-more {
-    display: none; /* Hidden by default */
-  }
-  
-  .test-more.visible {
-    display: inline; /* Show when the 'visible' class is added */
-  }
+}
 
+
+.test-dots{
+  display: block;
+  color: var(--DARK-COLOR);
+  text-decoration: underline;
+}
+
+.test-more {
+  display: none; /* Hidden by default */
+}
+
+.test-more.visible {
+  display: inline; /* Show when the 'visible' class is added */
 }
 
 .single-testimonial{
   border: 1px solid var(--BORDER-LIGHT);
   border-radius: 11px;
-  padding: 6rem;
-  margin-inline: 6rem;
+  padding: 1rem;
+  margin-inline: 1.2rem;
   column-gap: 2rem;
 }
 
