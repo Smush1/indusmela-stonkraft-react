@@ -1107,7 +1107,7 @@ ul {
   list-style: none;
 }
 
-img {
+.site-logo img {
   max-width: 100%;
   height: auto;
 }
