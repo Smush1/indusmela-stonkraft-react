@@ -113,4 +113,4 @@ const FeaturedItemsTab =[
 
 
 
-export {FeaturedItemsImage, FeaturedItemsTab }
+export { FeaturedItemsImage, FeaturedItemsTab }

@@ -121,6 +121,35 @@ body{
 
 
 /* Carousel Base */
+
+/* mobile screen */
+@media (max-width: 576px)
+{
+  .mobile-banner{
+    display: block!important;
+}
+  .desktop-banner{
+    display: none!important;
+  }
+
+}
+
+
+@media (min-width:577px) {
+  
+  .desktop-banner{
+    display: block!important;
+  }
+  
+  .mobile-banner{
+    display: none!important;
+  }
+}
+
+
+
+
+
 .carousel-item {
   position: relative;
   height: calc(95vh - 110px);
@@ -258,7 +287,7 @@ body{
 
 @media (max-width: 576px) {
   .carousel-item {
-      height: 25vh;
+      height: 55vh;
   }
 
   .carousel-caption {
@@ -674,7 +703,7 @@ body{
 }
 
 .bulk-contact-inner-container > .row{
-  gap: 4rem;
+  gap: 5rem;
 }
 
 
@@ -707,13 +736,13 @@ body{
   .text-btn-container{
     text-align: center;
     width: inherit!important;
-    margin: 2rem 0 0 0!important;
+    margin: 0!important;
   }
 
   .bulk-contact-form-container{
     width: inherit!important;
     padding: 35px 15px!important;
-    margin: 1.4rem!important;
+    margin: 0 1.4rem!important;
     border: 1px solid var(--BORDER-LIGHT);
   }
 
@@ -922,15 +951,21 @@ body{
     width: 80%!important;
   }
   .contact-us-section{
-    margin-top: 0;
+    margin-top: 5rem;
   }
 }
 
 .contact-us-main--inner-container{
   column-gap: 2rem;
-  row-gap: 5rem;
+  row-gap: 4rem;
 }
 
+
+@media (max-width: 576px){
+  .contact-us-main--inner-container{
+    row-gap: 5rem;
+  }
+}
 
 .add-info-item{
   gap: 10px;
@@ -1024,7 +1059,7 @@ body{
 
 
 .carousel-item{
-  background-image: url('../images/banner.png');
+  background-color: lightslategrey;
 }
 
 
