@@ -13,7 +13,7 @@ function ContactUs() {
                         <img src={locationSvg} alt="" />
                     </div>
                     <div className="add-icon-info">
-                        <h4 class> Write to Us</h4>
+                        <h4 className=""> Write to Us</h4>
                         <p className='mb-0'> We’re here to help with any questions or partnership inquiries!</p>
                         <a href="" className='mt-0'>istonkraft@gmail.com</a>
                     </div>
