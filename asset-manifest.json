@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/indusmela-stonkraft-react/static/css/main.c2545e8d.css",
-    "main.js": "/indusmela-stonkraft-react/static/js/main.252159ca.js",
+    "main.js": "/indusmela-stonkraft-react/static/js/main.c3356d28.js",
     "static/js/453.39a39057.chunk.js": "/indusmela-stonkraft-react/static/js/453.39a39057.chunk.js",
     "static/media/show-piece.png": "/indusmela-stonkraft-react/static/media/show-piece.c79add7eaaf5ad24d09e.png",
     "static/media/bulk-contact-form-bg.png": "/indusmela-stonkraft-react/static/media/bulk-contact-form-bg.de8bc59cd3411db553f0.png",
@@ -13,7 +13,6 @@
     "static/media/sportsequip2.png": "/indusmela-stonkraft-react/static/media/sportsequip2.10925081ff1b87128dc5.png",
     "static/media/art-craft1.png": "/indusmela-stonkraft-react/static/media/art-craft1.27f435f42e70e6891fe7.png",
     "static/media/banner.png": "/indusmela-stonkraft-react/static/media/banner.6d524dfe2739bbc1fa06.png",
-    "static/media/kitchenbathroom2.png": "/indusmela-stonkraft-react/static/media/kitchenbathroom2.30cfeea3102c5988c0f8.png",
     "static/media/kitchenbathroom1.png": "/indusmela-stonkraft-react/static/media/kitchenbathroom1.85cd9915fcd57a58e487.png",
     "static/media/home-organiser1.png": "/indusmela-stonkraft-react/static/media/home-organiser1.e4da040137bb5f2190a6.png",
     "static/media/art-craft2.png": "/indusmela-stonkraft-react/static/media/art-craft2.dce51188b7b25a41405d.png",
@@ -24,7 +23,6 @@
     "static/media/wooden-comb.png": "/indusmela-stonkraft-react/static/media/wooden-comb.cfa84e3e2a69dd1de7d5.png",
     "static/media/elephant.png": "/indusmela-stonkraft-react/static/media/elephant.c524e1a1374164611b06.png",
     "static/media/coffee-table.png": "/indusmela-stonkraft-react/static/media/coffee-table.aafe496b31f806cea280.png",
-    "static/media/ganesh-ji.png": "/indusmela-stonkraft-react/static/media/ganesh-ji.c50dfceaf2f5c2e52b23.png",
     "static/media/chess.png": "/indusmela-stonkraft-react/static/media/chess.71480f3be20b84dfd605.png",
     "static/media/kitchen-set.png": "/indusmela-stonkraft-react/static/media/kitchen-set.c3fda7b2af471a681fc6.png",
     "static/media/skipping-rope.png": "/indusmela-stonkraft-react/static/media/skipping-rope.fa700d8334d356c0d707.png",
@@ -47,11 +45,11 @@
     "static/media/phone.svg": "/indusmela-stonkraft-react/static/media/phone.95276cf8d5fc640963a394b1b3018781.svg",
     "static/media/email.svg": "/indusmela-stonkraft-react/static/media/email.f8102bf773ad36d9c063bda73287fb08.svg",
     "main.c2545e8d.css.map": "/indusmela-stonkraft-react/static/css/main.c2545e8d.css.map",
-    "main.252159ca.js.map": "/indusmela-stonkraft-react/static/js/main.252159ca.js.map",
+    "main.c3356d28.js.map": "/indusmela-stonkraft-react/static/js/main.c3356d28.js.map",
     "453.39a39057.chunk.js.map": "/indusmela-stonkraft-react/static/js/453.39a39057.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2545e8d.css",
-    "static/js/main.252159ca.js"
+    "static/js/main.c3356d28.js"
   ]
 }
