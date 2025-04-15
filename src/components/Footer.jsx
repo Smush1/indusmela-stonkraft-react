@@ -19,7 +19,7 @@ function Footer() {
                         <div className="course-links-widget widget">
                             <h5 className="widget-title">Other Links</h5>
                             <ul className="courses-link-list">
-                                <li><a href="#">Shop StoneKraft</a></li>
+                                <li><a href="#">Shop StonKraft</a></li>
                                 <li><a href="#">Our Group</a></li>
                                 <li><a href="#">Sell Global</a></li>
                                 <li><a href="#">Contact Us</a></li>

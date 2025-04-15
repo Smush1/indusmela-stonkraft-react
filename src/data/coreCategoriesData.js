@@ -1,5 +1,4 @@
 import chess from '../images/chess.png'
-import elephant from '../images/elephant.png'
 import flowerPot from '../images/flower-pot.png'
 import penStand from '../images/pen-stand.png'
 import kitchenSet from '../images/kitchen-set.png'
@@ -35,57 +34,56 @@ import sportEquipments2 from '../images/sportsequip2.png'
 const coreCategories = [ 
     {
     "id": 1,
-    "categoryTitle": "TOYS & GAMES",
+    "categoryTitle": "Tournament Chess Boards ",
     "categoryImage": chess,
     "dataTarget": "#toysgames",
     "altText" : "Toys & Games"
     },
     {
     "id": 2,
-    "categoryTitle": "HOME DECOR",
-    "categoryImage": elephant,
+    "categoryTitle": "Wooden Chess Boards",
+    "categoryImage": chess,
     "dataTarget": "#homedecor",
     "altText" : "Home Decor"
     },
     {
     "id": 3,
-    "categoryTitle": "HOME ORGANISER",
+    "categoryTitle": "Marble Chess Boards",
     "categoryImage": flowerPot,
     "dataTarget": "#homeorganiser",
     "altText" : "Home Organiser"
     },
     {
     "id": 4,
-    "categoryTitle": "ARTS & CRAFT",
+    "categoryTitle": "Chess Pieces",
     "categoryImage": penStand,
     "dataTarget": "#artscraft",
     "altText" : "Arts & Craft"
     },
     {
     "id": 5,
-    "categoryTitle": "KITCHEN & BATHROOM",
+    "categoryTitle": "Premium Chess Pieces",
     "categoryImage": kitchenSet,
     "dataTarget": "#kitchenbathroom",
     "altText" : "Kitchen & Bathroom"
     },
     {
     "id": 6,
-    "categoryTitle": "RELIGIOUS ITEMS",
+    "categoryTitle": "Puzzles and 3D DIY Kits",
     "categoryImage": cross,
     "dataTarget": "#religiousitems",
     "altText" : "Religious Item"
     },
     {
     "id": 7,
-    "categoryTitle": "SPORTS EQUIPMENT",
+    "categoryTitle": "Sports Accessories",
     "categoryImage": skippingRope,
     "dataTarget": "#sportsequipment",
     "altText" : "Sports and Equipments"
     },
     {
     "id": 8,
-    "categoryTitle": `STATUES
-    CULPTURES`,
+    "categoryTitle": `Pet Accessories`,
     "categoryImage": chess,
     "dataTarget": "#statuessculptures",
     "altText" : "Statues & Sculptures"
@@ -97,6 +95,7 @@ const coreCategories = [
 
 const categoryRelatedData = [
     {   
+        "id": 1,
         "modalId": "toysgames",
         "name": "TOYS & GAMES",
         "description": "Discover handcrafted toys and games from Stonekraft, blending tradition with fun.Designed for all ages, our collection brings joy, creativity, and timeless play to every home",
@@ -122,9 +121,10 @@ const categoryRelatedData = [
         "link3_title":"Puzzle Kits",
         "link3_Image": puzzleKits,
 
-        "viewMoreLink": "https://indusmela.com/collections/stonkraft?sort_by=best-selling&filter.v.price.gte=&filter.v.price.lte=&filter.p.t.category=tg-2-5&filter.p.t.category=tg-2-7&filter.p.t.category=hg-11-1-8&filter.p.t.category=sg-1-8&filter.p.t.category=sg-1-8-3"
+        "viewMoreLink": "https://indusmela.in/collections/tournament-chess"
     },
     {   
+        "id": 2,
         "modalId": "homedecor",
         "name": "Home Decor",
         "description": "Elevate your space with Stonekraft’s handcrafted home décor—timeless wall accents, sculptures, and statement pieces that blend tradition with elegance, bringing warmth and artistry to every corner.",
@@ -144,9 +144,10 @@ const categoryRelatedData = [
         "link2_title":"idols",
         "link2_Image":idols,
  
-        "viewMoreLink": "https://indusmela.in/collections/stonkraft?sort_by=best-selling&filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=D%C3%A9cor+Articles&filter.p.product_type=Ganesha&filter.p.product_type=Hanging+Diya&filter.p.product_type=Idols&filter.p.product_type=Kamdhenu+Cow&filter.p.product_type=Krishna+%2F+Radha&filter.p.product_type=Lakshmi&filter.p.product_type=Ram+Lalla%2C+Darbar&filter.p.product_type=Shiva+Idol%2C+Lingam&filter.p.product_type=Standing+Diya"
+        "viewMoreLink": "https://indusmela.in/collections/wooden-chess"
     },
     {   
+        "id": 3,
         "modalId": "homeorganiser",
         "name": "Home Organiser",
         "description": "Keep your space clutter-free with Stonekraft’s handcrafted home organizers—elegant, functional, and designed to add a touch of tradition while keeping your essentials neatly arranged.",
@@ -160,9 +161,10 @@ const categoryRelatedData = [
         "image3": homeOrganizer1,
         "image3_altText": "idols",
 
-        "viewMoreLink": "https://indusmela.in/collections/stonkraft?sort_by=best-selling&filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Office+Miscellaneous&filter.p.product_type=Soap+Dish&filter.p.product_type=Table+Tops&filter.p.product_type=Vase"
+        "viewMoreLink": "https://indusmela.in/collections/marble-chess"
     },
     {   
+        "id": 4,
         "modalId": "artscraft",
         "name": "Arts & Craft",
         "description": "Unleash your creativity with Stonekraft’s arts and crafts collection—handcrafted DIY kits and artistic pieces that celebrate traditional craftsmanship and inspire endless possibilities.",
@@ -177,9 +179,10 @@ const categoryRelatedData = [
         "image3_altText": "idols",
  
 
-        "viewMoreLink": "https://indusmela.in/collections/stonkraft?sort_by=best-selling&filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Maze%2C+3D+Puzzles&filter.p.product_type=Toddlers+%281+-+6+Years%29&filter.p.product_type=Wooden+Dollhouse"
+        "viewMoreLink": "https://indusmela.in/collections/chess-pieces"
     },
     {   
+        "id": 5,
         "modalId": "kitchenbathroom",
         "name": "Kitchen & Bathroom",
         "description": "Enhance your kitchen and bathroom with Stonekraft’s elegant handcrafted décor—timeless designs that add sophistication, charm, and a touch of artistry to your everyday spaces",
@@ -194,9 +197,10 @@ const categoryRelatedData = [
         "image3_altText": "idols",
 
 
-        "viewMoreLink": "https://indusmela.in/collections/stonkraft?sort_by=best-selling&filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Bar+Glasses&filter.p.product_type=Soap+Dish"
+        "viewMoreLink": "https://indusmela.in/collections/premium-chess"
     },
     {   
+        "id": 6,
         "modalId": "religiousitems",
         "name": "Religious Items",
         "description": "Enhance your kitchen and bathroom with Stonekraft’s elegant handcrafted décor—timeless designs that add sophistication, charm, and a touch of artistry to your everyday spaces.",
@@ -222,9 +226,10 @@ const categoryRelatedData = [
         "link3_title":"Diyas",
         "link3_Image": puzzleKits,
 
-        "viewMoreLink": "https://indusmela.in/collections/stonkraft?sort_by=best-selling&filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Balaji&filter.p.product_type=Cross&filter.p.product_type=Ganesha&filter.p.product_type=Hanging+Diya&filter.p.product_type=Idols&filter.p.product_type=Kamdhenu+Cow&filter.p.product_type=Krishna+%2F+Radha&filter.p.product_type=Lakshmi&filter.p.product_type=Ram+Lalla%2C+Darbar&filter.p.product_type=Shiva+Idol%2C+Lingam&filter.p.product_type=Standing+Diya"
+        "viewMoreLink": "https://indusmela.in/collections/puzzles-construction-toys"
     },
     {   
+        "id": 7,
         "modalId": "statuessculptures",
         "name": "Statues & Sculptures",
         "description": "Bring timeless artistry into your space with Stonekraft’s handcrafted statues and sculptures—exquisite pieces that embody tradition, spirituality, and elegance in every detail.",
@@ -238,9 +243,10 @@ const categoryRelatedData = [
         "image3": statues,
         "image3_altText": "Card Games",
 
-        "viewMoreLink": "https://indusmela.in/collections/stonkraft?sort_by=best-selling&filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Balaji&filter.p.product_type=Cross&filter.p.product_type=D%C3%A9cor+Articles&filter.p.product_type=Ganesha&filter.p.product_type=Hanging+Diya&filter.p.product_type=Idols&filter.p.product_type=Kamdhenu+Cow&filter.p.product_type=Krishna+%2F+Radha&filter.p.product_type=Lakshmi&filter.p.product_type=Ram+Lalla%2C+Darbar&filter.p.product_type=Shiva+Idol%2C+Lingam "
+        "viewMoreLink": "https://indusmela.in/collections/sports"
     },
     {   
+        "id": 8,
         "modalId": "sportsequipment",
         "name": "Sports Accessories",
         "description": "Elevate your game with Stonekraft’s handcrafted sports accessories—a blend of durability, tradition, and artistry, designed to add a unique touch to your sporting experience.",
@@ -255,7 +261,7 @@ const categoryRelatedData = [
         "image3_altText": "Card Games",
  
 
-        "viewMoreLink": "https://indusmela.in/collections/stonkraft?sort_by=best-selling&filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Sports+Accessories "
+        "viewMoreLink": "https://indusmela.in/collections/pet-toys"
     }
 ]
 

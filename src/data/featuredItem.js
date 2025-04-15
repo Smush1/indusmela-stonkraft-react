@@ -12,7 +12,7 @@ const FeaturedItemsImage =[
     {
         "id" : 1,
         "imageLink" : coffeeTable,
-        "altText": `Round Corner Table Stand Coffee Table for Living Room – Wood – 21″ Inches Height – Brown`,
+        "altText": `StonKraft Collectible Black Marble and Malachite Chess Board Set + Wooden Brass Combo Chess Pieces - Decorative Stone Chess - Home Decor`,
         "productLink": "",
         "price": "165",
         "salePrice": "220"
