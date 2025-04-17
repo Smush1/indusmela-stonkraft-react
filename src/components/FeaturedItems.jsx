@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FeaturedItemsImage, FeaturedItemsTab } from '../data/featuredItem';
+import { FeaturedItemsImage, FeaturedItemsTab, AllFeaturedItems } from '../data/featuredItem';
 
 
 
@@ -40,7 +40,7 @@ function FeaturedItems() {
 
   return (
     <>
-    <div className='container mb-4'>
+    <div className='container mb-4' id="featured-products">
         <h2 className='featured-items-heading'>Featured Products</h2>
         <p >We bring you a thoughtfully curated range of handmade products across diverse categories</p>
             <div className='row fi-grid--container '>
@@ -74,7 +74,7 @@ function FeaturedItems() {
                         <figcaption>{featureditem.altText}</figcaption>
                         <p className='price'>  {featureditem.salePrice && (<s className='sale-price p-1'>₹{featureditem.salePrice} </s>)}  ₹{ featureditem.price } </p>
                     </figure>
-                    <button className='btn btn-outline-danger w-100 buy-btn py-3' data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Buy Now</button>
+                    <button className='btn btn-outline-danger w-100 buy-btn py-3' data-bs-toggle="modal" data-bs-target={"#"+ featureditem.modalId } >Buy Now</button>
                 </div>
                         ))
               }
@@ -92,7 +92,7 @@ function FeaturedItems() {
 
         {/* <!-- Modal --> */}
         { 
-        FeaturedItemsImage.map((featureditem, index)=>(
+        AllFeaturedItems.map((featureditem, index)=>(
 
         <div className="modal fade" id={featureditem.modalId} data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" key={index}>
         <div className="modal-dialog modal-dialog-centered">
@@ -107,17 +107,17 @@ function FeaturedItems() {
                         <h5>{featureditem.altText}</h5>
                         <p className='pop-up-price'>₹{ featureditem.price }</p>
                         <p className='pop-up-para'> { featureditem.desc }</p>
-                        <a target="_blank"  href={featureditem.productLink} className='btn btn-outline-danger w-100 submit py-3'> Buy Now </a>
+                        <a target="_blank" rel="noreferrer" href={featureditem.productLink} className='btn btn-outline-danger w-100 buy-btn submit py-3'> BUY NOW </a>
                     <table className=' mt-4'>
                       <tbody>
                         <tr>
                             <td className='w-50'>SKU</td>
                             <td className='w-50'>{featureditem.sku}</td>
                         </tr>
-                        <tr>
+                     {/*    <tr>
                             <td>Type</td>
                             <td>{featureditem.type}</td>
-                        </tr>
+                        </tr> */}
                         <tr>
                             <td>Vendor</td>
                             <td>Stonkraft</td>

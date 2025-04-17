@@ -6,8 +6,8 @@ function ContactBulkForm() {
     <div className="bulk-contact-inner-container ">
       <div className="row">
         <div className="col-lg-5 text-btn-container">
-          <h3 className="bulk-left-heading">Corporate Gifting with <span className="bulk-left-custom-heading">StonKraft</span></h3>
-          <p className="bulk-left-para">Whether you’re looking to strengthen client relationships, appreciate employees, or celebrate milestones, our curated selection of premium gifts ensures your brand stands out with class and authenticity.</p>
+          <h3 className="bulk-left-heading">Bulk Buying Made Simple with<p className="bulk-left-custom-heading">StonKraft</p></h3>
+          <p className="bulk-left-para">Looking to place a large order? Whether for events, stores, or special occasions, our bulk buying options offer handcrafted quality, reliable pricing, and seamless fulfillment—crafted to impress at scale.</p>
           <a className="btn btn-primary bulk-buy-btn px-4 py-3 mt-2" href="#" role="button">Contact for bulk buying</a>
         </div>
         <div className="col-lg-5 bulk-contact-form-container m-5">

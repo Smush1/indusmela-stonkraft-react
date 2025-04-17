@@ -11,8 +11,7 @@ function Footer() {
                     <div className="col-lg-6 col-md-6 col-sm-6">
                         <div className="company-intro-widget widget">
                             <a href="index.html" className="site-logo"><img src={footerLogo} alt="logo" /></a>
-                            <p>Consectetur adipiscing elit, sed do <br />eiusmod tempor incididunt ut labore et <br />
-                                dolore magna aliqua. </p>
+                           
                         </div>
                     </div>{/* <!-- widget end --> */}
                     <div className="col-lg-2 col-md-6 col-sm-6 course-links">

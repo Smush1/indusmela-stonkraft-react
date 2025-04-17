@@ -68,9 +68,9 @@ function CoreCategories() {
                                     </div>)} 
                                     
 
-                                    { singleCategoryData.image2 && (<div className ="carousel-item" style={{ height: (index > 0) ? "47vh": "" }}>
+                                  {/*   { singleCategoryData.image3 && (<div className ="carousel-item" style={{ height: (index > 0) ? "47vh": "" }}>
                                         <img src={singleCategoryData.image3} alt={singleCategoryData['image3_altText']} />
-                                    </div>)} 
+                                    </div>)}  */}
                                     
                                 </div>
                             </div>
@@ -80,7 +80,7 @@ function CoreCategories() {
                             <h4><b>{singleCategoryData.name}</b></h4>
                             <p>{ singleCategoryData.description}</p>
                             <div className ="category-list">
-                                
+                      {/*           
                                 { singleCategoryData.link1 && (<div>
                                     <a
                                         href={singleCategoryData.link1} target="_blank" rel="noopener noreferrer"><img
@@ -99,7 +99,7 @@ function CoreCategories() {
                                         href={singleCategoryData.link3} target="_blank" rel="noopener noreferrer"><img
                                             src={singleCategoryData["link3_Image"]} alt={singleCategoryData["link3_title"]}  /></a>
                                     <p>{singleCategoryData["link3_title"]}</p>
-                                </div>)}
+                                </div>)} */}
                             </div>
                             <button className ="view-more-btn"><a
                                     href=  {singleCategoryData.viewMoreLink}

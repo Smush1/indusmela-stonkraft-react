@@ -700,7 +700,7 @@ body{
 }
 
 .bulk-contact-inner-container{
-  background-image: url('../images/bulk-contact-form-bg.webp');
+  background-image: url('../images/contact-bulk-buy-bg.webp');
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 40px;
@@ -783,8 +783,15 @@ body{
 
 .bulk-buy-btn{
   text-transform: uppercase;
-  background-color: var(--DARK-COLOR)!important;
-  border: 1px solid var(--DARK-COLOR)
+  background-color: var(--WHITE-CLR)!important;
+  border: 1px solid var(--DARK-COLOR);
+  color: var(--HEADING-CLR);
+}
+
+.bulk-buy-btn:hover{
+  background-color: var(--LIGHT-COLOR)!important;
+  border: 1px solid var(--DARK-COLOR);
+  color: var(--WHITE-CLR);
 }
 
 

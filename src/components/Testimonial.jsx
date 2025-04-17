@@ -85,7 +85,7 @@ const handleTestContent = (index) => {
             </div>
             <div className="right-test w-100 mt-2">
                 <img src={ singleTestimonial.rating } alt="" className='d-block mx-auto mb-1 rating-img' />
-                <p className='test-para'>{singleTestimonial.testimonial}<span className={`test-more ${expanded[index] ? 'visible' : ''}`}>{singleTestimonial.testimonialMore}</span><span className='test-dots' onClick={() => handleTestContent(index)}>{expanded[index] ? 'Read less' : 'Read more'}</span></p>
+                <p className='test-para'>{singleTestimonial.testimonial}<span className={`test-more ${expanded[index] ? 'visible' : ''}`}>{singleTestimonial.testimonialMore}</span><span className='test-dots' onClick={() => handleTestContent(index)}>{expanded[index] ? 'Read less' : '...Read more'}</span></p>
             </div>
 
           </div> 

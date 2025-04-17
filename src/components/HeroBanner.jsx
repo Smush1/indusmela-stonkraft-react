@@ -8,7 +8,7 @@ function HeroBanner() {
         <div class="container-fluid px-3">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     {/*         <!-- Indicators --> */}
-            <div class="carousel-indicators">
+       {/*      <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
@@ -17,7 +17,7 @@ function HeroBanner() {
                     aria-label="Slide 3"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
                     aria-label="Slide 4"></button>
-            </div>
+            </div> */}
 
 {/*             <!-- Carousel Items --> */}
             <div class="carousel-inner">
@@ -30,10 +30,10 @@ function HeroBanner() {
                             handmade, designed by us, and crafted under our supervision. We proudly retail globally,
                             ensuring premium quality, fair pricing, and reliable delivery. Our mission is to bring the
                             warmth of Indian artistry into homes worldwide.</p>
-                        <a href="#" class="btn btn-custom">VIEW PRODUCTS</a>
+                        <a href="#featured-products" class="btn btn-custom">VIEW PRODUCTS</a>
                     </div>
                 </div>
-                <div class="carousel-item">
+             {/*    <div class="carousel-item">
                     <img src={deskBanner} class="w-100 carousel-image desktop-banner" alt="Banner"/>
                     <img src={mobileBanner} class="w-100 carousel-image mobile-banner" alt="Banner"/>
                     <div class="carousel-caption">
@@ -69,7 +69,7 @@ function HeroBanner() {
                             warmth of Indian artistry into homes worldwide.</p>
                         <a href="#" class="btn btn-custom">VIEW PRODUCTS</a>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>
