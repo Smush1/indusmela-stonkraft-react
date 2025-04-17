@@ -586,6 +586,8 @@ body{
 
 .fi-img{
   max-width: 100%;
+  border: 1px solid #cfcfcf;
+  border-radius: 11px;
 }
 
 
@@ -636,6 +638,10 @@ body{
   row-gap: 4rem;
   transition: height 2s linear 1s;
 
+}
+
+.fi-pop-up-img{
+  height: fit-content;
 }
 
 

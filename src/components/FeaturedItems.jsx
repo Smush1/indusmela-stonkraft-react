@@ -51,9 +51,9 @@ function FeaturedItems() {
                             <figure>
                                 <img src={featureditem.imageLink} alt={featureditem.altText} className='fi-img' />
                                 <figcaption>{featureditem.altText}</figcaption>
-                                <p className='price'> <s className='sale-price p-1'>₹{featureditem.salePrice} </s> ₹{ featureditem.price } </p>
+                                <p className='price'> {featureditem.salePrice && (<s className='sale-price p-1'>₹{featureditem.salePrice} </s>)} ₹{ featureditem.price } </p>
                             </figure>
-                            <button href="#" className='btn btn-outline-danger w-100 buy-btn py-3'  data-bs-toggle="modal" data-bs-target="#staticBackdrop">Buy Now</button>
+                            <button href="#" className='btn btn-outline-danger w-100 buy-btn py-3'  data-bs-toggle="modal" data-bs-target={"#"+featureditem.modalId }>Buy Now</button>
                         </div>
                         ))
                     }
@@ -72,7 +72,7 @@ function FeaturedItems() {
                     <figure>
                         <img src={featureditem.imageLink} alt={featureditem.altText} className='fi-img' />
                         <figcaption>{featureditem.altText}</figcaption>
-                        <p className='price'> <s className='sale-price p-1'>₹{featureditem.salePrice} </s> ₹{ featureditem.price } </p>
+                        <p className='price'>  {featureditem.salePrice && (<s className='sale-price p-1'>₹{featureditem.salePrice} </s>)}  ₹{ featureditem.price } </p>
                     </figure>
                     <button className='btn btn-outline-danger w-100 buy-btn py-3' data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Buy Now</button>
                 </div>
@@ -91,7 +91,10 @@ function FeaturedItems() {
        {/*  <!-- Button trigger modal --> */}
 
         {/* <!-- Modal --> */}
-        <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        { 
+        FeaturedItemsImage.map((featureditem, index)=>(
+
+        <div className="modal fade" id={featureditem.modalId} data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" key={index}>
         <div className="modal-dialog modal-dialog-centered">
             <div className="modal-content">
             <div className="modal-header">
@@ -99,25 +102,25 @@ function FeaturedItems() {
             </div>
             <div className="modal-body">
                 <div className='d-flex align-content-center pop-up-flex-container'>
-                    <img src={FeaturedItemsImage[1].imageLink} className='w-50' alt={FeaturedItemsImage.altText}/>
+                    <img src={featureditem.imageLink} className='w-50 fi-pop-up-img' alt={FeaturedItemsImage.altText}/>
                     <div className='pop-up-content'>
-                        <h5>StonKraft Wooden Chess Board Foldable Table + Wood Chess Pieces – Tournament Size 16″ Inches – Brown</h5>
-                        <p className='pop-up-price'>$924</p>
-                        <p className='pop-up-para'> Handcrafted Chess Board made on Stone, Pieces are also made of Brown / Black Stone for premium quality and peace of mind. Chess Set itself is having storage for all of it 32 pawns and is laced with satin feel cloth. Pieces are made of Black and Brown color natural stone.</p>
-                        <button className='btn btn-outline-danger w-100 submit py-3'> Buy Now </button>
+                        <h5>{featureditem.altText}</h5>
+                        <p className='pop-up-price'>₹{ featureditem.price }</p>
+                        <p className='pop-up-para'> { featureditem.desc }</p>
+                        <a target="_blank"  href={featureditem.productLink} className='btn btn-outline-danger w-100 submit py-3'> Buy Now </a>
                     <table className=' mt-4'>
                       <tbody>
                         <tr>
                             <td className='w-50'>SKU</td>
-                            <td className='w-50'>SOHAYYE8550</td>
+                            <td className='w-50'>{featureditem.sku}</td>
                         </tr>
                         <tr>
                             <td>Type</td>
-                            <td>Kitchen</td>
+                            <td>{featureditem.type}</td>
                         </tr>
                         <tr>
                             <td>Vendor</td>
-                            <td>Stonekraft</td>
+                            <td>Stonkraft</td>
                         </tr>
                       </tbody>
                     </table>
@@ -127,6 +130,8 @@ function FeaturedItems() {
             </div>
         </div>
         </div>
+        ))
+}
 
                     
     </>

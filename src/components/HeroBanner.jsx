@@ -1,5 +1,5 @@
-import banner from '../images/banner.png'
-import mobileBanner from '../images/chess.png'
+import deskBanner from '../images/stonkraft-desk-banner.png'
+import mobileBanner from '../images/stonkraft-mob-banner.webp'
 
 function HeroBanner() {
   return (
@@ -22,7 +22,7 @@ function HeroBanner() {
 {/*             <!-- Carousel Items --> */}
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src={banner} class="w-100 carousel-image desktop-banner" alt="Banner"/>
+                    <img src={deskBanner} class="w-100 carousel-image desktop-banner" alt="Banner"/>
                     <img src={mobileBanner} class="w-100 carousel-image mobile-banner" alt="Banner"/>
                     <div class="carousel-caption">
                         <h1 class="pb-2">Crafted with Passion, Rooted<br/> in India – Handmade for the<br/> World</h1>
@@ -34,7 +34,7 @@ function HeroBanner() {
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src={banner} class="w-100 carousel-image desktop-banner" alt="Banner"/>
+                    <img src={deskBanner} class="w-100 carousel-image desktop-banner" alt="Banner"/>
                     <img src={mobileBanner} class="w-100 carousel-image mobile-banner" alt="Banner"/>
                     <div class="carousel-caption">
                         <h1 class="pb-2">Crafted with Passion, Rooted<br/> in India – Handmade for the<br/> World</h1>
@@ -46,7 +46,7 @@ function HeroBanner() {
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src={banner} class="w-100 carousel-image desktop-banner" alt="Banner"/>
+                    <img src={deskBanner} class="w-100 carousel-image desktop-banner" alt="Banner"/>
                     <img src={mobileBanner} class="w-100 carousel-image mobile-banner" alt="Banner"/>
                     <div class="carousel-caption">
                         <h1 class="pb-2">Crafted with Passion, Rooted<br/> in India – Handmade for the<br/> World</h1>
@@ -59,7 +59,7 @@ function HeroBanner() {
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src={banner} class="w-100 carousel-image desktop-banner" alt="Banner"/>
+                    <img src={deskBanner} class="w-100 carousel-image desktop-banner" alt="Banner"/>
                     <img src={mobileBanner} class="w-100 carousel-image mobile-banner" alt="Banner"/>
                     <div class="carousel-caption">
                         <h1 class="pb-2 ">Crafted with Passion, Rooted<br/> in India – Handmade for the<br/> World</h1>
