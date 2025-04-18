@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/indusmela-stonkraft-react/static/css/main.addfe0a4.css",
-    "main.js": "/indusmela-stonkraft-react/static/js/main.495da7e3.js",
+    "main.css": "/indusmela-stonkraft-react/static/css/main.cb282d55.css",
+    "main.js": "/indusmela-stonkraft-react/static/js/main.fe24f717.js",
     "static/js/453.39a39057.chunk.js": "/indusmela-stonkraft-react/static/js/453.39a39057.chunk.js",
     "static/media/category7-img2.png": "/indusmela-stonkraft-react/static/media/category7-img2.10925081ff1b87128dc5.png",
     "static/media/category1-img2.png": "/indusmela-stonkraft-react/static/media/category1-img2.5c1de73616711a38ccac.png",
@@ -50,12 +50,12 @@
     "static/media/slick.woff": "/indusmela-stonkraft-react/static/media/slick.295183786cd8a1389865.woff",
     "static/media/phone.svg": "/indusmela-stonkraft-react/static/media/phone.95276cf8d5fc640963a394b1b3018781.svg",
     "static/media/email.svg": "/indusmela-stonkraft-react/static/media/email.f8102bf773ad36d9c063bda73287fb08.svg",
-    "main.addfe0a4.css.map": "/indusmela-stonkraft-react/static/css/main.addfe0a4.css.map",
-    "main.495da7e3.js.map": "/indusmela-stonkraft-react/static/js/main.495da7e3.js.map",
+    "main.cb282d55.css.map": "/indusmela-stonkraft-react/static/css/main.cb282d55.css.map",
+    "main.fe24f717.js.map": "/indusmela-stonkraft-react/static/js/main.fe24f717.js.map",
     "453.39a39057.chunk.js.map": "/indusmela-stonkraft-react/static/js/453.39a39057.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.addfe0a4.css",
-    "static/js/main.495da7e3.js"
+    "static/css/main.cb282d55.css",
+    "static/js/main.fe24f717.js"
   ]
 }
