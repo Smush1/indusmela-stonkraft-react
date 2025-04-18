@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/indusmela-stonkraft-react/static/css/main.ce639c16.css",
-    "main.js": "/indusmela-stonkraft-react/static/js/main.477c20e3.js",
+    "main.js": "/indusmela-stonkraft-react/static/js/main.d2f2949e.js",
     "static/js/453.39a39057.chunk.js": "/indusmela-stonkraft-react/static/js/453.39a39057.chunk.js",
     "static/media/stonkraft-desk-banner.png": "/indusmela-stonkraft-react/static/media/stonkraft-desk-banner.36939b267ac7b489d52f.png",
     "static/media/category7-img2.png": "/indusmela-stonkraft-react/static/media/category7-img2.10925081ff1b87128dc5.png",
@@ -51,11 +51,11 @@
     "static/media/phone.svg": "/indusmela-stonkraft-react/static/media/phone.95276cf8d5fc640963a394b1b3018781.svg",
     "static/media/email.svg": "/indusmela-stonkraft-react/static/media/email.f8102bf773ad36d9c063bda73287fb08.svg",
     "main.ce639c16.css.map": "/indusmela-stonkraft-react/static/css/main.ce639c16.css.map",
-    "main.477c20e3.js.map": "/indusmela-stonkraft-react/static/js/main.477c20e3.js.map",
+    "main.d2f2949e.js.map": "/indusmela-stonkraft-react/static/js/main.d2f2949e.js.map",
     "453.39a39057.chunk.js.map": "/indusmela-stonkraft-react/static/js/453.39a39057.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce639c16.css",
-    "static/js/main.477c20e3.js"
+    "static/js/main.d2f2949e.js"
   ]
 }
