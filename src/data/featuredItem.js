@@ -22,6 +22,7 @@ const FeaturedItemsImage =[
         "imageLink" : featuredImage1,
         "altText": `StonKraft Collectible Black Marble and Malachite Chess Board Set + Wooden Brass Combo Chess Pieces - Decorative Stone Chess - Home Decor`,
         "desc": "",
+        "sku":"B00JXETG4U",
         "type": "",
         "productLink": "https://indusmela.in/products/stonkraft-collectible-black-marble-and-malachite-chess-board-set-wooden-brass-combo-chess-pieces-pawns-decorative-stone-chess-home-decor-15-inches?variant=45401043370153",
         "modalId": "featuredImg1",

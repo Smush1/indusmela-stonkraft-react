@@ -1072,7 +1072,7 @@ body{
 
 
 .carousel-item{
-  background-color: lightslategrey;
+  background-color: var(--WHITE-CLR);
 }
 
 

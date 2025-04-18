@@ -4,7 +4,7 @@ import emailSvg from '../images/email.svg'
 
 function ContactUs() {
   return (
-    <div className="container contact-us-section">
+    <div className="container contact-us-section" id="contact-us">
         <div className="mx-auto w-100 d-flex ">
           <div className='row contact-us-main--inner-container justify-content-center'>
             <div className="left-add-info d-grid col-lg-4 align-items-center py-5 col-sm-12">
@@ -15,7 +15,7 @@ function ContactUs() {
                     <div className="add-icon-info">
                         <h4 className=""> Write to Us</h4>
                         <p className='mb-0'> We’re here to help with any questions or partnership inquiries!</p>
-                        <a href="" className='mt-0'>istonkraft@gmail.com</a>
+                        <a href="mailto:istonkraft@gmail.com" rel="noreferrer" className='mt-0'>istonkraft@gmail.com</a>
                     </div>
                 </div>
                 <div className="add-info-item d-flex">
@@ -25,7 +25,7 @@ function ContactUs() {
                     <div className="add-icon-info">
                         <h4>Call Us</h4>
                         <p className='mb-0'> We’d love to hear from you!</p>
-                        <a href="" className='mt-0'>917060602250</a>
+                        <a href="tel:+917060602250" rel="noreferrer" className='mt-0'>+917060602250</a>
                     </div>
                 </div>
                 <div className="add-info-item d-flex">

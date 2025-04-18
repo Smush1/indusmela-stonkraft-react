@@ -7,7 +7,7 @@ function CoreCategories() {
   return (
     <>
 {/*       <!-- Categories Section --> */}
-    <div className ="container category my-5 py-5">
+    <div className ="container category my-5 py-5" id="core-categories">
         <h2 className ="fw-bold">Our Core Categories</h2>
         <p className ="pb-5">We bring you a thoughtfully curated range of handmade products across diverse categories</p>
 
@@ -59,11 +59,11 @@ function CoreCategories() {
                                 </div>
 
                                 <div className ="carousel-inner categories">
-                                    <div className ="active carousel-item" style={{ height: (index > 0) ? "47vh": "" }}>
+                                    <div className ="active carousel-item" style={{ height: (index >= 0) ? "47vh": "" }}>
                                         <img src={singleCategoryData.image1} alt={singleCategoryData['image1_altText']} />
                                     </div>
 
-                                    { singleCategoryData.image2 && (<div className ="carousel-item" style={{ height: (index > 0) ? "47vh": "" }}>
+                                    { singleCategoryData.image2 && (<div className ="carousel-item" style={{ height: (index >= 0) ? "47vh": "" }}>
                                         <img src={singleCategoryData.image2} alt={singleCategoryData['image2_altText']} />
                                     </div>)} 
                                     

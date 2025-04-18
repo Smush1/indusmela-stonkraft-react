@@ -1,6 +1,3 @@
-
-
-
 import category1img1 from "../images/category1-img1.png"
 import category1img2 from "../images/category1-img2.png"
 
@@ -223,7 +220,7 @@ const categoryRelatedData = [
     },
     {   
         "id": 7,
-        "modalId": "statuessculptures",
+        "modalId": "sportsequipment",
         "name": "Sports Accessories",
         "description": "Gear up with Stonekraft’s durable and stylish sports accessories. Designed for comfort, performance, and everyday action—because every athlete deserves the right tools to play their best.",
  
@@ -237,7 +234,7 @@ const categoryRelatedData = [
     },
     {   
         "id": 8,
-        "modalId": "sportsequipment",
+        "modalId": "statuessculptures",
         "name": "Pet Accessories",
         "description": "Pamper your pets with thoughtfully designed accessories. From playtime to downtime, our collection ensures comfort, joy, and a wag-worthy lifestyle for your furry companions.",
  

@@ -12,10 +12,10 @@ function Header() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
-                        <li className="nav-item"><a className="nav-link" href="#">About</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#">Collection</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#">Products</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#">Contact</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#">Home</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#core-categories">Collection</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#featured-products">Products</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#contact-us">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -26,7 +26,7 @@ function Header() {
             </a>
 
         {/*     <!-- Right-aligned Button --> */}
-            <a href="#" className="d-lg-block d-none corporate-btn">CORPORATE GIFTING</a>
+            <a href="#bulk-buy" className="d-lg-block d-none corporate-btn">CONTACT FOR BULK BUY</a>
         </div>
         </nav>
       </header>

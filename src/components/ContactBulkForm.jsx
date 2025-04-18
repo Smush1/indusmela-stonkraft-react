@@ -2,7 +2,7 @@
 
 function ContactBulkForm() {
   return (
-  <div className="bulk-contact-form--main-container container-fluid ">
+  <div className="bulk-contact-form--main-container container-fluid" id="bulk-buy">
     <div className="bulk-contact-inner-container ">
       <div className="row">
         <div className="col-lg-5 text-btn-container">
