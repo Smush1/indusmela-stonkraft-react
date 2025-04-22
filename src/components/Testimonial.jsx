@@ -67,7 +67,7 @@ const handleTestContent = (index) => {
    
   return (
     <div className="testimonial">
-      <h3 className="testimonial-heading text-center">Hear from our happy customers</h3>
+      <h3 className="testimonial-heading text-center fw-bold">Hear from our happy customers</h3>
       <p className="testimonial-para text-center mx-auto">Look at what our happy customers say about their purchase & product!</p>
       <div className='container'>
       <Slider {...settings}>
@@ -80,8 +80,10 @@ const handleTestContent = (index) => {
         <div className='single-testimonial-outer-container d-flex justify-content-center text-center' key={index}>
           <div className="single-testimonial d-flex align-items-center flex-column">
             <div className="left-img">
+            <a href={singleTestimonial.testimonialLink} target='_blank' rel="noreferrer" >
               <img src={singleTestimonial.image} alt="" className='w-100 review-img'/>
-              <button className='btn btn-outline-danger w-100 buy-btn py-1 mt-3'> Buy Now </button>
+            </a>
+              <a href={singleTestimonial.testimonialLink} target='_blank' rel="noreferrer" ><button className='btn btn-outline-danger w-100 buy-btn py-1 mt-3'> See the Review </button></a>
             </div>
             <div className="right-test w-100 mt-2">
                 <img src={ singleTestimonial.rating } alt="" className='d-block mx-auto mb-1 rating-img' />

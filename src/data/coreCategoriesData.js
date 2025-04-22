@@ -36,56 +36,65 @@ const coreCategories = [
     "categoryTitle": "Tournament Chess Boards ",
     "categoryImage": category1img1,
     "dataTarget": "#toysgames",
-    "altText" : "Toys & Games"
+    "altText" : "Toys & Games",
+    "viewMoreLink": "https://indusmela.in/collections/tournament-chess"
     },
     {
     "id": 2,
     "categoryTitle": "Wooden Chess Boards",
     "categoryImage": category2img1,
     "dataTarget": "#homedecor",
-    "altText" : "Home Decor"
+    "altText" : "Home Decor",
+    "viewMoreLink": "https://indusmela.in/collections/wooden-chess"
     },
     {
     "id": 3,
     "categoryTitle": "Marble Chess Boards",
     "categoryImage": category3img1,
     "dataTarget": "#homeorganiser",
-    "altText" : "Home Organiser"
+    "altText" : "Home Organiser",
+    "viewMoreLink": "https://indusmela.in/collections/marble-chess"
+    
     },
     {
     "id": 4,
     "categoryTitle": "Chess Pieces",
     "categoryImage": category4img1,
     "dataTarget": "#artscraft",
-    "altText" : "Arts & Craft"
+    "altText" : "Arts & Craft",
+    "viewMoreLink": "https://indusmela.in/collections/chess-pieces"
     },
     {
     "id": 5,
-    "categoryTitle": "Premium Chess Pieces",
+    "categoryTitle": "Premium Chess Sets",
     "categoryImage": category5img1,
     "dataTarget": "#kitchenbathroom",
-    "altText" : "Kitchen & Bathroom"
+    "altText" : "Kitchen & Bathroom",
+    "viewMoreLink": "https://indusmela.in/collections/premium-chess"
     },
     {
     "id": 6,
     "categoryTitle": "Puzzles and 3D DIY Kits",
     "categoryImage": category6img1,
     "dataTarget": "#religiousitems",
-    "altText" : "Religious Item"
+    "altText" : "Religious Item",
+    "viewMoreLink": "https://indusmela.in/collections/puzzles-construction-toys"
     },
     {
     "id": 7,
     "categoryTitle": "Sports Accessories",
     "categoryImage": category7img1,
     "dataTarget": "#sportsequipment",
-    "altText" : "Sports and Equipments"
+    "altText" : "Sports and Equipments",
+    "viewMoreLink": "https://indusmela.in/collections/sports"
     },
     {
     "id": 8,
     "categoryTitle": `Pet Accessories`,
     "categoryImage": category8img1,
     "dataTarget": "#statuessculptures",
-    "altText" : "Statues & Sculptures"
+    "altText" : "Statues & Sculptures",
+    "viewMoreLink": "https://indusmela.in/collections/pet-toys"
     }
 ]
 
