@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/indusmela-stonkraft-react/static/css/main.6ebbe0d8.css",
-    "main.js": "/indusmela-stonkraft-react/static/js/main.1812c70f.js",
+    "main.js": "/indusmela-stonkraft-react/static/js/main.28952de4.js",
     "static/js/453.39a39057.chunk.js": "/indusmela-stonkraft-react/static/js/453.39a39057.chunk.js",
     "static/media/category7-img2.png": "/indusmela-stonkraft-react/static/media/category7-img2.10925081ff1b87128dc5.png",
     "static/media/category1-img2.png": "/indusmela-stonkraft-react/static/media/category1-img2.5c1de73616711a38ccac.png",
@@ -32,15 +32,15 @@
     "static/media/footer-logo.webp": "/indusmela-stonkraft-react/static/media/footer-logo.355cfdff5e69921bab8c.webp",
     "static/media/featured-img-9.webp": "/indusmela-stonkraft-react/static/media/featured-img-9.a05526b577148c288e29.webp",
     "static/media/featured-img-11.webp": "/indusmela-stonkraft-react/static/media/featured-img-11.9a13f930e23d9e110f35.webp",
-    "static/media/category3-img1.webp": "/indusmela-stonkraft-react/static/media/category3-img1.51cfddd1ce8e2ac1aae0.webp",
-    "static/media/category2-img1.webp": "/indusmela-stonkraft-react/static/media/category2-img1.d62f6ef7b8d50c47d55c.webp",
-    "static/media/category6-img1.webp": "/indusmela-stonkraft-react/static/media/category6-img1.d56f85de73e65f796ada.webp",
-    "static/media/category1-img1.webp": "/indusmela-stonkraft-react/static/media/category1-img1.72ad8de8ad4e3cc2542a.webp",
     "static/media/Indusmela.webp": "/indusmela-stonkraft-react/static/media/Indusmela.ede019b33a6d17a8996b.webp",
-    "static/media/category4-img1.webp": "/indusmela-stonkraft-react/static/media/category4-img1.8e948ddf9aa1ea9c814e.webp",
-    "static/media/category7-img1.webp": "/indusmela-stonkraft-react/static/media/category7-img1.a63f7f37e0a1ee06282f.webp",
     "static/media/Amazon.webp": "/indusmela-stonkraft-react/static/media/Amazon.98aaa877c137be3103bf.webp",
-    "static/media/category8-img1.webp": "/indusmela-stonkraft-react/static/media/category8-img1.c99fac9045628b5b17ed.webp",
+    "static/media/category7-img1.webp": "/indusmela-stonkraft-react/static/media/category7-img1.5ccc8048250fbeaf5c87.webp",
+    "static/media/category2-img1.webp": "/indusmela-stonkraft-react/static/media/category2-img1.541d3df09dc964384bd2.webp",
+    "static/media/category3-img1.webp": "/indusmela-stonkraft-react/static/media/category3-img1.805a1d0c90092bc45a9b.webp",
+    "static/media/category6-img1.webp": "/indusmela-stonkraft-react/static/media/category6-img1.2aa6b4affca59431df9d.webp",
+    "static/media/category1-img1.webp": "/indusmela-stonkraft-react/static/media/category1-img1.99c48d565a6ae4f010d3.webp",
+    "static/media/category8-img1.webp": "/indusmela-stonkraft-react/static/media/category8-img1.a4c31b51bd51a8b6b6a8.webp",
+    "static/media/category4-img1.webp": "/indusmela-stonkraft-react/static/media/category4-img1.e4d2e226d4a36accf2f1.webp",
     "static/media/slick.svg": "/indusmela-stonkraft-react/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/indusmela-stonkraft-react/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/indusmela-stonkraft-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
@@ -50,11 +50,11 @@
     "static/media/phone.svg": "/indusmela-stonkraft-react/static/media/phone.95276cf8d5fc640963a394b1b3018781.svg",
     "static/media/email.svg": "/indusmela-stonkraft-react/static/media/email.f8102bf773ad36d9c063bda73287fb08.svg",
     "main.6ebbe0d8.css.map": "/indusmela-stonkraft-react/static/css/main.6ebbe0d8.css.map",
-    "main.1812c70f.js.map": "/indusmela-stonkraft-react/static/js/main.1812c70f.js.map",
+    "main.28952de4.js.map": "/indusmela-stonkraft-react/static/js/main.28952de4.js.map",
     "453.39a39057.chunk.js.map": "/indusmela-stonkraft-react/static/js/453.39a39057.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ebbe0d8.css",
-    "static/js/main.1812c70f.js"
+    "static/js/main.28952de4.js"
   ]
 }
