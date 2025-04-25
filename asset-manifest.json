@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/indusmela-stonkraft-react/static/css/main.911e9fc6.css",
-    "main.js": "/indusmela-stonkraft-react/static/js/main.44966b37.js",
+    "main.js": "/indusmela-stonkraft-react/static/js/main.62447afb.js",
     "static/js/453.39a39057.chunk.js": "/indusmela-stonkraft-react/static/js/453.39a39057.chunk.js",
     "static/media/category7-img2.png": "/indusmela-stonkraft-react/static/media/category7-img2.10925081ff1b87128dc5.png",
     "static/media/category1-img2.png": "/indusmela-stonkraft-react/static/media/category1-img2.5c1de73616711a38ccac.png",
@@ -22,26 +22,25 @@
     "static/media/testimonial-3.webp": "/indusmela-stonkraft-react/static/media/testimonial-3.954346adfd4dc5fc46c5.webp",
     "static/media/category8-img1.webp": "/indusmela-stonkraft-react/static/media/category8-img1.c71396f70cf5c1a45848.webp",
     "static/media/testimonial-1.webp": "/indusmela-stonkraft-react/static/media/testimonial-1.a3fe3fe756c0800a1bf5.webp",
-    "static/media/footer-logo.png": "/indusmela-stonkraft-react/static/media/footer-logo.60a91180d30e44380ff3.png",
     "static/media/featured-img-1.webp": "/indusmela-stonkraft-react/static/media/featured-img-1.dc7ba1e415dd8d01c37f.webp",
     "static/media/featured-img-8.webp": "/indusmela-stonkraft-react/static/media/featured-img-8.e946f0a4a3aec945b742.webp",
     "static/media/stonkraft-desk-banner.webp": "/indusmela-stonkraft-react/static/media/stonkraft-desk-banner.26cc01ed4cc513171db6.webp",
     "static/media/testimonial-2.webp": "/indusmela-stonkraft-react/static/media/testimonial-2.5569b4ab44037ad76e91.webp",
-    "static/media/Amazon.png": "/indusmela-stonkraft-react/static/media/Amazon.1a1557d269c9989b7f98.png",
-    "static/media/Indusmela.png": "/indusmela-stonkraft-react/static/media/Indusmela.13b7e9f2045ac207aef8.png",
     "static/media/featured-img-3.webp": "/indusmela-stonkraft-react/static/media/featured-img-3.c8e1bb3b0765503fcffd.webp",
     "static/media/featured-img-10.webp": "/indusmela-stonkraft-react/static/media/featured-img-10.e09da3b03a424274f5f8.webp",
     "static/media/featured-img-5.webp": "/indusmela-stonkraft-react/static/media/featured-img-5.4fa47a141436d9340182.webp",
     "static/media/featured-img-2.webp": "/indusmela-stonkraft-react/static/media/featured-img-2.a8c80377792e7d0f3a2f.webp",
     "static/media/featured-img-7.webp": "/indusmela-stonkraft-react/static/media/featured-img-7.f0f2a68530025dacb4df.webp",
     "static/media/featured-img-6.webp": "/indusmela-stonkraft-react/static/media/featured-img-6.1be19a786540a04995f5.webp",
-    "static/media/logo.png": "/indusmela-stonkraft-react/static/media/logo.9a6c6889d9c66a5a04e1.png",
     "static/media/category7-img1.webp": "/indusmela-stonkraft-react/static/media/category7-img1.b6230b5f582158485fb9.webp",
     "static/media/featured-img-4.webp": "/indusmela-stonkraft-react/static/media/featured-img-4.c56a1c0704d4c723fe2c.webp",
     "static/media/stonkraft-mob-banner.webp": "/indusmela-stonkraft-react/static/media/stonkraft-mob-banner.10e700616b2b8d90660b.webp",
     "static/media/featured-img-12.webp": "/indusmela-stonkraft-react/static/media/featured-img-12.54ba31c9962a2aa6abe9.webp",
+    "static/media/footer-logo.webp": "/indusmela-stonkraft-react/static/media/footer-logo.355cfdff5e69921bab8c.webp",
     "static/media/featured-img-9.webp": "/indusmela-stonkraft-react/static/media/featured-img-9.a05526b577148c288e29.webp",
     "static/media/featured-img-11.webp": "/indusmela-stonkraft-react/static/media/featured-img-11.9a13f930e23d9e110f35.webp",
+    "static/media/Indusmela.webp": "/indusmela-stonkraft-react/static/media/Indusmela.ede019b33a6d17a8996b.webp",
+    "static/media/Amazon.webp": "/indusmela-stonkraft-react/static/media/Amazon.98aaa877c137be3103bf.webp",
     "static/media/slick.svg": "/indusmela-stonkraft-react/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/indusmela-stonkraft-react/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/indusmela-stonkraft-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
@@ -51,11 +50,11 @@
     "static/media/phone.svg": "/indusmela-stonkraft-react/static/media/phone.95276cf8d5fc640963a394b1b3018781.svg",
     "static/media/email.svg": "/indusmela-stonkraft-react/static/media/email.f8102bf773ad36d9c063bda73287fb08.svg",
     "main.911e9fc6.css.map": "/indusmela-stonkraft-react/static/css/main.911e9fc6.css.map",
-    "main.44966b37.js.map": "/indusmela-stonkraft-react/static/js/main.44966b37.js.map",
+    "main.62447afb.js.map": "/indusmela-stonkraft-react/static/js/main.62447afb.js.map",
     "453.39a39057.chunk.js.map": "/indusmela-stonkraft-react/static/js/453.39a39057.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.911e9fc6.css",
-    "static/js/main.44966b37.js"
+    "static/js/main.62447afb.js"
   ]
 }
