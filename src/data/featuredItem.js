@@ -121,13 +121,13 @@ const FeaturedItemsTab =[
     {
         "id" : 9,
         "imageLink" : featuredImage9,
-        "altText": `StonKraft Wooden Doll House Dollhouse - Home Decor, Construction Toy, Modeling Kit, School Project - Easy to Assemble 3D Puzzle`,
+        "altText": `StonKraft Wooden 3D Puzzle Beach House - Home Decor, Construction Toy, Modeling Kit, School Project - Easy to Assemble`,
         "desc": "",
         "sku":"B099X2RV1P",
         "type": "",
-        "productLink": "https://indusmela.in/products/stonkraft-wooden-doll-house-dollhouse-home-decor-construction-toy-modeling-kit-school-project-easy-to-assemble-3d-puzzle",
+        "productLink": "https://indusmela.in/products/stonkraft-wooden-3d-puzzle-beach-house-home-decor-construction-toy-modeling-kit-school-project-easy-to-assemble",
         "modalId": "featuredImg9",
-        "price": "1,361.00",
+        "price": "520.00",
         "salePrice": ""
     },
     {
@@ -137,9 +137,9 @@ const FeaturedItemsTab =[
         "desc": "",
         "sku":"B0757XK135",
         "type": "",
-        "productLink": "https://indusmela.in/products/stonkraft-wooden-3d-puzzle-beach-house-home-decor-construction-toy-modeling-kit-school-project-easy-to-assemble",
+        "productLink": "https://indusmela.in/products/stonkraft-wooden-doll-house-dollhouse-home-decor-construction-toy-modeling-kit-school-project-easy-to-assemble-3d-puzzle",
         "modalId": "featuredImg10",
-        "price": "520.00",
+        "price": "1,361.00",
         "salePrice": ""
     },
     {

@@ -68,7 +68,7 @@ const handleTestContent = (index) => {
   return (
     <div className="testimonial">
       <h3 className="testimonial-heading text-center fw-bold">Hear from our happy customers</h3>
-      <p className="testimonial-para text-center mx-auto">Look at what our happy customers say about their purchase & product!</p>
+      <p className="testimonial-para text-center mx-auto">Look at what they have to say about their purchase & product</p>
       <div className='container'>
       <Slider {...settings}>
 
@@ -86,7 +86,7 @@ const handleTestContent = (index) => {
               <a href={singleTestimonial.testimonialLink} target='_blank' rel="noreferrer" ><button className='btn btn-outline-danger w-100 buy-btn py-1 mt-3'> See the Review </button></a>
             </div>
             <div className="right-test w-100 mt-2">
-                <img src={ singleTestimonial.rating } alt="" className='d-block mx-auto mb-1 rating-img' />
+                <img src={ singleTestimonial.rating } loading='lazy' alt="" className='d-block mx-auto mb-1 rating-img' />
                 <p className='test-para'>{singleTestimonial.testimonial}<span className={`test-more ${expanded[index] ? 'visible' : ''}`}>{singleTestimonial.testimonialMore}</span><span className='test-dots' onClick={() => handleTestContent(index)}>{expanded[index] ? 'Read less' : '...Read more'}</span></p>
             </div>
 

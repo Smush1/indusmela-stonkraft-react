@@ -1,4 +1,4 @@
-import footerLogo from '../images/footer-logo.png'
+import footerLogo from '../images/footer-logo.webp'
 
 function Footer() {
   return (
@@ -31,8 +31,8 @@ function Footer() {
                         <div className="course-links-widget widget">
                             <h5 className="widget-title">Main Links</h5>
                             <ul className="courses-link-list">
-                                <li><a href="index.html" rel="noreferrer">Home</a></li>
                                 <li><a href="#core-categories" rel="noreferrer">Collection</a></li>
+                                <li><a href="#featured-products" rel="noreferrer">Products</a></li>
                                 <li><a href="#bulk-buy" rel="noreferrer">Bulk Buy</a></li>
                             </ul>
                         </div>
@@ -52,13 +52,13 @@ function Footer() {
                     
                     {/* <!-- widget end --> */}
                     <div className="container">
-                        <div className="d-flex row justify-content-between">
+                        <div className="d-flex row footer-contact-info-container">
                             <div className="col-lg-2 col-md-6 col-sm-6">
                                 <div className="contact course-links-widget">
-                                    <h5 className="pb-3 widget-title">Contact</h5>
+                                    <h5 className="pb-3 widget-title">Get in Touch</h5>
                                     <ul className="company-footer-contact-list">
-                                    <a href="tel:+917060602250" rel="noreferrer"><li><i className="fa-phone fa-solid pb-2"></i>+91 70606 02250</li></a>
-                                    <a href="mailto:istonkraft@gmail.com" rel="noreferrer"><li><i className="fa-envelope fa-solid"></i>istonkraft@gmail.com</li>
+                                    <a href="https://wa.me/917060602250" target="_blank" rel="noreferrer" ><li><i className="fa-phone fa-solid pb-2"></i>+91 70606 02250</li></a>
+                                    <a href="mailto:istonkraft@gmail.com"  target="_blank" rel="noreferrer" ><li><i className="fa-envelope fa-solid"></i>istonkraft@gmail.com</li>
                                     </a>
                                     </ul>
                                 </div>
@@ -98,7 +98,7 @@ function Footer() {
                 <div className="row">
                     <div className="col-md-12 col-sm-12 text-center text-sm-left">
                     <a className="" target="_blank"
-                                href="https://mediax.co.in/"><span className="copy-right-text">Made with 💛 by MediaX</span> </a>
+                                href="https://mediax.co.in/" rel="noreferrer" ><span className="copy-right-text">Made with 🧡 by MediaX</span> </a>
                     </div>
                 </div>
             </div>

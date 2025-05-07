@@ -10,7 +10,7 @@ const Testimonials = [
       "id": "1",
       "image": testimonial1,
       "rating": fiveStar,
-      "testimonial": `Summary: If you are looking for a chess set under 1000 with good quality then go for it or  `,
+      "testimonial": `If you are looking for a chess set under 1000 with good quality then go for it or  `,
       "testimonialMore": `read my review. I got this chess set yesterday and it is very nice, the size is genuinely too big which is the best part but there is only one defect that one of my white rook's red cloth is a little damaged and there were atleast 4-5 more pieces with unaligned red cloth but I fixed it still the white rook's red cloth is unfixable leaving that aside the chess is really nice it help me to analyse my game easily and the foldable chess board is awesome as it can be easily carried anywhere, it comes with a black carrying pouch in which we can keep our pieces, colour Is good overall.`,
       "testimonialLink":"https://www.amazon.in/gp/customer-reviews/R1KPCCDTCD7KT1/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00HXCMO9I",
       "author": "Author"

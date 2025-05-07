@@ -9,7 +9,7 @@ function CoreCategories() {
 {/*       <!-- Categories Section --> */}
     <div className ="container category my-4 py-5" id="core-categories">
         <h2 className ="fw-bold">Our Core Categories</h2>
-        <p className ="pb-3">We bring you a thoughtfully curated range of handmade products across diverse categories</p>
+        <p className ="pb-3">Explore our collection of handcrafted chess sets, games, and unique lifestyle accessories</p>
 
         <div className ="g-4 row">
 
@@ -23,7 +23,7 @@ function CoreCategories() {
                         <h5>{singleCategory.categoryTitle}</h5>
                     </div>
                     <div className ="category-img">
-                        <img src={singleCategory.categoryImage} alt={singleCategory.altText}/>
+                        <img src={singleCategory.categoryImage} alt={singleCategory.altText} loading='lazy' style={{ aspectRatio: "1/1" }}/>
                     </div>
                 </div>
                 </a>

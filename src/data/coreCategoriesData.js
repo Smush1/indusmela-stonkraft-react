@@ -1,25 +1,25 @@
-import category1img1 from "../images/category1-img1.png"
+import category1img1 from "../images/category1-img1.webp"
 import category1img2 from "../images/category1-img2.png"
 
-import category2img1 from "../images/category2-img1.png"
+import category2img1 from "../images/category2-img1.webp"
 import category2img2 from "../images/category2-img2.png"
 
-import category3img1 from "../images/category3-img1.png"
+import category3img1 from "../images/category3-img1.webp"
 import category3img2 from "../images/category3-img2.png"
 
-import category4img1 from "../images/category4-img1.png"
+import category4img1 from "../images/category4-img1.webp"
 import category4img2 from "../images/category4-img2.png"
 
 import category5img1 from "../images/category5-img1.png"
 import category5img2 from "../images/category5-img2.png"
 
-import category6img1 from "../images/category6-img1.png"
+import category6img1 from "../images/category6-img1.webp"
 import category6img2 from "../images/category6-img2.png"
 
-import category7img1 from "../images/category7-img1.png"
+import category7img1 from "../images/category7-img1.webp"
 import category7img2 from "../images/category7-img2.png"
 
-import category8img1 from "../images/category8-img1.png"
+import category8img1 from "../images/category8-img1.webp"
 import category8img2 from "../images/category8-img2.png"
 
 
